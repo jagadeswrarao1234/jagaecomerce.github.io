@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Marnel E-commerce Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        body{
+            background-color: rgb(0, 195, 255)
+        }
+    </style>
+</head>
+
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="ecomers.html">
+                    <img src="Magento-Logs-removebg-preview.png" alt="" / width="125px">
+                </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="ecomers.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contacts</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                
+                <img src="./th-removebg-preview.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+   
+
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+                <option>By Popularity</option>
+                <option>By Rating</option>
+                <option>By Sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="./th (8)_adobespark (2).jpg " alt="" height="320px" width="700px">
+                <h4>Cavaliers SweatShirt by Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+            <div class="col-4">
+                <img src="./th (9).jpg  " alt="" height="320px" width="700px">
+                <h4>Polo Ralph Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+            <div class="col-4">
+                <img src="./th (10).jpg"" alt="" height="320px" width="700px">
+                <h4>Allen Solly Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.2369</p>
+            </div>
+            <div class="col-4">
+                <img src="./th (2).jpg" alt="" height="320px" width="700px">
+                <h4>H&M SweatShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1499</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./pro5-calvinK-4199.png" alt="" />
+                <h4>Calvin Klein Sweater</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.4199</p>
+            </div>
+            <div class="col-4">
+                <img src="./th18.png" alt="" />
+                <h4>SELECTED Blazer</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.11499</p>
+            </div>
+            <div class="col-4">
+                <img src="./pro7-anubhutte-988.png" alt="" />
+                <h4>Anubhutte Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.988</p>
+            </div>
+            <div class="col-4">
+                <img src="./pro8-biba-3039.png" alt="" />
+                <h4>Biba Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3039</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./pro9-dorothy perkins-1245.png" alt="" />
+                <h4>Dorothy Perkins Skirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1245</p>
+            </div>
+            <div class="col-4">
+                <img src="./pro15-harmon kardon-14990.png" alt="" />
+                <h4>Bobbi Brown Cream</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.5600</p>
+            </div>
+            <div class="col-4">
+                <img src="./pro11-AccessHer-39500.png" alt="" />
+                <h4>Access Her Necklace</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.39500</p>
+            </div>
+            <div class="col-4">
+                <img src="./pro12-fossil-14296.png" alt="" />
+                <h4>Fossil Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.14296</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-4">
+                <img src="./hp.jpg" alt="" />
+                <h4>victus by hp</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.68990</p>
+            </div>
+            <div class="col-4">
+                <img src="./Inspiron_15_-56a1b4695f9b58b7d0c1decb.jpg" alt="" />
+                <h4>Dell Insprion</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.73400</p>
+            </div>
+            <div class="col-4">
+                <img src="./aceraspire1-100815704-large.3x2.jpg "alt="" />
+                <h4>Accer</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.39500</p>
+            </div>
+            <div class="col-4">
+                <img src="./lenovo.jpg" alt="" />
+                <h4>Lenovo</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.26,999</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-4">
+                <img src="./OnePlus--8-Pro-207.jpg" alt="" />
+                <h4>Onepluse</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.54990</p>
+            </div>
+            <div class="col-4">
+                <img src="./th (3).jpg" alt="" />
+                <h4>Apple iPhone</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.73400</p>
+            </div>
+            <div class="col-4">
+                <img src="./red.jpg "alt="" />
+                <h4>Redmi </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.21000</p>
+            </div>
+            <div class="col-4">
+                <img src="./realme.jpg" alt="" />
+                <h4>RealMe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.15999</p>
+            </div>
+        </div>
+        
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="./play-store.png" alt="">
+                        <img src="./app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./Magento-Logs-removebg-preview.png" alt="">
+                    <p>Our purpose is to give the best quality product to the customer and bring them back and make them
+                        happy.</p>
+                </div>
+                <div class="footer-col-3">
+            
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                         <li><i class="fa fa-youtube-play"></i></li>
+                        <li><i class="fa fa-twitter-square" ></i></li>
+                    </ul>
+                </div>
+            </div>
+        
+            
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
